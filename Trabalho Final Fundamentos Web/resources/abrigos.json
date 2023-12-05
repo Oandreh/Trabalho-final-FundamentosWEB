@@ -1,0 +1,38 @@
+[
+    {
+        "Nome": "Abrigo Igreja Católica São Sebastião",
+        "Tipo": "Oficial",
+        "Bairro": "Bela Aliança",
+        "Nivel de Ativamento": 7.00
+    },
+    {
+        "Nome": "Abrigo Lions Club",
+        "Tipo": "Oficial",
+        "Bairro": "Progresso",
+        "Nivel de Ativamento": 7.00
+    },
+    {
+        "Nome": "Abrigo Igreja Luterana Bela Aliança",
+        "Tipo": "Oficial",
+        "Bairro": "Bela Aliança",
+        "Nivel de Ativamento": 7.00
+    },
+    {
+        "Nome": "Abrigo Sociedade Atiradores Bela Aliança",
+        "Tipo": "Oficial",
+        "Bairro": "Bela Aliança",
+        "Nivel de Ativamento": 10.00
+    },
+    {
+        "Nome": "Abrigo Câmara Junior (JCI)",
+        "Tipo": "Oficial",
+        "Bairro": "Pamplona",
+        "Nivel de Ativamento": 12.00
+    },
+    {
+        "Nome": "Abrigo Associação Fundo Canoas",
+        "Tipo": "Oficial",
+        "Bairro": "Fundo Canoas",
+        "Nivel de Ativamento": 10.00
+    }
+]

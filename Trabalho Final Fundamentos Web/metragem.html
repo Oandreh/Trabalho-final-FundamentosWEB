@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vi numberewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter Finder Rio Do Sul</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <img id="enchente" height="75" src="https://i.makeagif.com/media/1-27-2016/nbIYQt.gif" alt="crianças na enchente">
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="metragem.html">Descubra abrigos</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Shelter Finder</h1>
+    </header>
+
+    <section>
+        <p>Clique em uma das metragens para ver os abrigos disponíveis</p>
+    </section>
+
+    <div class="centralized mb-5">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Bairro</th>
+                    <th>Ativamento (metros)</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-abrigos">
+                <tr>
+                    <td colspan="4">Sem abrigos ativos</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="centralized mb-5">
+        <table cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="0C0" style="width:100px;"></th>
+                    <th id="0C1" style="width:100px;"></th>
+                    <th id="0C2" style="width:100px;"></th>
+                    <th id="0C3" style="width:100px;"></th>
+                    <th id="0C4" style="width:100px;"></th>
+                    <th id="0C5" style="width:115px;"></th>
+                    <th id="0C6" style="width:100px;"></th>
+                    <th id="0C7" style="width:85px;"></th>
+                    <th id="0C8" style="width:100px;"></th>
+                    <th id="0C9" style="width:122px;"></th>
+                    <th id="0C10" style="width:169px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 20px">
+                    <td dir="ltr" colspan="6">Enchentes na história de Rio do Sul</td>
+                    <td></td>
+                    <td dir="ltr" colspan="4">Maiores enchentes da história de Rio do Sul</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">Ocorrência</td>
+                    <td dir="ltr">Ano</td>
+                    <td dir="ltr">Mês</td>
+                    <td dir="ltr">Volume mm</td>
+                    <td dir="ltr">Metragem</td>
+                    <td dir="ltr">Dias de chuva</td>
+                    <td></td>
+                    <td dir="ltr">Posição</td>
+                    <td dir="ltr">Ano</td>
+                    <td dir="ltr">Mês</td>
+                    <td dir="ltr">Metragem</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">1</td>
+                    <td dir="ltr">1911</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">12,20</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">1ª</td>
+                    <td dir="ltr">1983</td>
+                    <td dir="ltr">Julho</td>
+                    <td class="s6 number" dir="ltr">13,58</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">2</td>
+                    <td dir="ltr">1927</td>
+                    <td dir="ltr">Junho</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">10,00</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">2ª</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Novembro</td>
+                    <td class="s6 number" dir="ltr">13,04</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">3</td>
+                    <td dir="ltr">1928</td>
+                    <td dir="ltr">Maio</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,63</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">3ª</td>
+                    <td dir="ltr">2011</td>
+                    <td dir="ltr">Setembro</td>
+                    <td class="s6 number" dir="ltr">12,96</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">4</td>
+                    <td dir="ltr">1928</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,13</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">4ª</td>
+                    <td dir="ltr">1984</td>
+                    <td dir="ltr">Agosto</td>
+                    <td class="s6 number" dir="ltr">12,80</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">5</td>
+                    <td dir="ltr">1931</td>
+                    <td dir="ltr">Maio</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">10,18</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">5ª</td>
+                    <td dir="ltr">1911</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s6 number" dir="ltr">12,20</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">6</td>
+                    <td dir="ltr">1931</td>
+                    <td dir="ltr">Setembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,54</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">6ª</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s6 number" dir="ltr">11,86</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">7</td>
+                    <td dir="ltr">1933</td>
+                    <td dir="ltr">Setembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">9,12</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">7ª</td>
+                    <td dir="ltr">2017</td>
+                    <td dir="ltr">Junho</td>
+                    <td class="s6 number" dir="ltr">10,89</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">8</td>
+                    <td dir="ltr">1939</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,80</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">8ª</td>
+                    <td dir="ltr">2015</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s6 number" dir="ltr">10,71</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">9</td>
+                    <td dir="ltr">1948</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">9,00</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">9ª</td>
+                    <td dir="ltr">1954</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s6 number" dir="ltr">10,70</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">10</td>
+                    <td dir="ltr">1950</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,75</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr">10ª</td>
+                    <td dir="ltr">1957</td>
+                    <td dir="ltr">Agosto</td>
+                    <td class="s6 number" dir="ltr">10,65</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">11</td>
+                    <td dir="ltr">1953</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,25</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s7" dir="ltr" colspan="4">Informações - Defesa Civil de Rio do Sul </td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">12</td>
+                    <td dir="ltr">1954</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">10,70</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">13</td>
+                    <td dir="ltr">1955</td>
+                    <td dir="ltr">Maio</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,30</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s8"></td>
+                    <td class="s8"></td>
+                    <td class="s8"></td>
+                    <td class="s8"></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">14</td>
+                    <td dir="ltr">1957</td>
+                    <td dir="ltr">Julho</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,37</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s9" colspan="4">Frequência de enchentes por mês</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">15</td>
+                    <td dir="ltr">1957</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">9,65</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s10" dir="ltr" colspan="2">Mês</td>
+                    <td class="s10" dir="ltr">Quantidade</td>
+                    <td class="s10" dir="ltr">Proporção</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">16</td>
+                    <td dir="ltr">1957</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">10,65</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Janeiro</td>
+                    <td dir="ltr">0</td>
+                    <td dir="ltr">0,00%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">17</td>
+                    <td dir="ltr">1957</td>
+                    <td dir="ltr">Setembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,20</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Fevereiro</td>
+                    <td dir="ltr">2</td>
+                    <td dir="ltr">2,82%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">18</td>
+                    <td dir="ltr">1961</td>
+                    <td dir="ltr">Setembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,20</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Março</td>
+                    <td dir="ltr">0</td>
+                    <td dir="ltr">0,00%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">19</td>
+                    <td dir="ltr">1961</td>
+                    <td dir="ltr">Novembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">9,75</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Abril</td>
+                    <td dir="ltr">3</td>
+                    <td dir="ltr">4,23%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">20</td>
+                    <td dir="ltr">1966</td>
+                    <td dir="ltr">Fevereiro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">10,00</td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Maio</td>
+                    <td dir="ltr">8</td>
+                    <td dir="ltr">11,27%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">21</td>
+                    <td dir="ltr">1969</td>
+                    <td dir="ltr">Abril</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,45</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Junho</td>
+                    <td dir="ltr">6</td>
+                    <td dir="ltr">8,45%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">22</td>
+                    <td dir="ltr">1971</td>
+                    <td dir="ltr">Junho</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,00</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Julho</td>
+                    <td dir="ltr">6</td>
+                    <td dir="ltr">8,45%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">23</td>
+                    <td dir="ltr">1972</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">9,15</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Agosto</td>
+                    <td dir="ltr">10</td>
+                    <td dir="ltr">14,08%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">24</td>
+                    <td dir="ltr">1973</td>
+                    <td dir="ltr">Julho</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,15</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Setembro</td>
+                    <td dir="ltr">12</td>
+                    <td dir="ltr">16,90%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">25</td>
+                    <td dir="ltr">1973</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,10</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Outubro</td>
+                    <td dir="ltr">17</td>
+                    <td dir="ltr">23,94%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">26</td>
+                    <td dir="ltr">1975</td>
+                    <td dir="ltr">Outubro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,88</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Novembro</td>
+                    <td dir="ltr">5</td>
+                    <td dir="ltr">7,04%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">27</td>
+                    <td dir="ltr">1977</td>
+                    <td dir="ltr">Agosto</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">8,85</td>
+                    <td></td>
+                    <td></td>
+                    <td dir="ltr" colspan="2">Dezembro</td>
+                    <td dir="ltr">2</td>
+                    <td dir="ltr">2,82%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">28</td>
+                    <td dir="ltr">1980</td>
+                    <td dir="ltr">Dezembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,20</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s10" colspan="2">Total</td>
+                    <td class="s10">71</td>
+                    <td dir="ltr">100,00%</td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">29</td>
+                    <td dir="ltr">1983</td>
+                    <td dir="ltr">Maio</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,35</td>
+                    <td></td>
+                    <td></td>
+                    <td class="s11" dir="ltr" colspan="4">Informações - Defesa Civil de Rio do Sul </td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">30</td>
+                    <td dir="ltr">1983</td>
+                    <td dir="ltr">Julho</td>
+                    <td dir="ltr">606.7</td>
+                    <td class="s5 number" dir="ltr">13,58</td>
+                    <td dir="ltr">20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">31</td>
+                    <td dir="ltr">1983</td>
+                    <td dir="ltr">Setembro</td>
+                    <td></td>
+                    <td class="s5 number" dir="ltr">7,60</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">32</td>
+                    <td dir="ltr">1984</td>
+                    <td dir="ltr">Agosto</td>
+                    <td dir="ltr">324.6</td>
+                    <td class="s5 number" dir="ltr">12,80</td>
+                    <td dir="ltr">14</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">33</td>
+                    <td dir="ltr">1992</td>
+                    <td dir="ltr">Maio</td>
+                    <td dir="ltr">295.1</td>
+                    <td class="s5 number" dir="ltr">8,52</td>
+                    <td dir="ltr">12</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">34</td>
+                    <td dir="ltr">1997</td>
+                    <td dir="ltr">Fevereiro</td>
+                    <td dir="ltr">297</td>
+                    <td class="s5 number" dir="ltr">8,72</td>
+                    <td dir="ltr">16</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">35</td>
+                    <td dir="ltr">1997</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">247</td>
+                    <td class="s5 number" dir="ltr">7,33</td>
+                    <td dir="ltr">22</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">36</td>
+                    <td dir="ltr">1998</td>
+                    <td dir="ltr">Abril</td>
+                    <td dir="ltr">198</td>
+                    <td class="s5 number" dir="ltr">7,96</td>
+                    <td dir="ltr">10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">37</td>
+                    <td dir="ltr">1999</td>
+                    <td dir="ltr">Julho</td>
+                    <td dir="ltr">183</td>
+                    <td class="s5 number" dir="ltr">7,00</td>
+                    <td dir="ltr">15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">38</td>
+                    <td dir="ltr">2001</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">159.5</td>
+                    <td class="s5 number" dir="ltr">9,10</td>
+                    <td dir="ltr">12</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">39</td>
+                    <td dir="ltr">2002</td>
+                    <td dir="ltr">Novembro</td>
+                    <td dir="ltr">225.3</td>
+                    <td class="s5 number" dir="ltr">7,15</td>
+                    <td dir="ltr">14</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">40</td>
+                    <td dir="ltr">2004</td>
+                    <td dir="ltr">Setembro</td>
+                    <td dir="ltr">110.3</td>
+                    <td class="s5 number" dir="ltr">6,89</td>
+                    <td dir="ltr">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">41</td>
+                    <td dir="ltr">2005</td>
+                    <td dir="ltr">Maio</td>
+                    <td dir="ltr">187.5</td>
+                    <td class="s5 number" dir="ltr">6,87</td>
+                    <td dir="ltr">9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">42</td>
+                    <td dir="ltr">2005</td>
+                    <td dir="ltr">Setembro</td>
+                    <td dir="ltr">234.3</td>
+                    <td class="s5 number" dir="ltr">7,64</td>
+                    <td dir="ltr">19</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">43</td>
+                    <td dir="ltr">2007</td>
+                    <td dir="ltr">Novembro</td>
+                    <td dir="ltr">142.9</td>
+                    <td class="s5 number" dir="ltr">6,76</td>
+                    <td dir="ltr">12</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">44</td>
+                    <td dir="ltr">2009</td>
+                    <td dir="ltr">Setembro</td>
+                    <td dir="ltr">292</td>
+                    <td class="s5 number" dir="ltr">8,55</td>
+                    <td dir="ltr">13</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">45</td>
+                    <td dir="ltr">2010</td>
+                    <td dir="ltr">Abril</td>
+                    <td dir="ltr">254</td>
+                    <td class="s5 number" dir="ltr">7,53</td>
+                    <td dir="ltr">7</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">46</td>
+                    <td dir="ltr">2011</td>
+                    <td dir="ltr">Julho</td>
+                    <td dir="ltr">72.2</td>
+                    <td class="s5 number" dir="ltr">6,50</td>
+                    <td dir="ltr">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">47</td>
+                    <td dir="ltr">2011</td>
+                    <td dir="ltr">Agosto</td>
+                    <td dir="ltr">143.4</td>
+                    <td class="s5 number" dir="ltr">8,83</td>
+                    <td dir="ltr">5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">48</td>
+                    <td dir="ltr">2011</td>
+                    <td dir="ltr">Agosto</td>
+                    <td dir="ltr">344.2</td>
+                    <td class="s5 number" dir="ltr">8,76</td>
+                    <td dir="ltr">17</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">49</td>
+                    <td dir="ltr">2011</td>
+                    <td dir="ltr">Setembro</td>
+                    <td dir="ltr">300.6</td>
+                    <td class="s5 number" dir="ltr">12,96</td>
+                    <td dir="ltr">6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">50</td>
+                    <td dir="ltr">2013</td>
+                    <td dir="ltr">Setembro</td>
+                    <td dir="ltr">131.1</td>
+                    <td class="s5 number" dir="ltr">10,39</td>
+                    <td dir="ltr">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">51</td>
+                    <td dir="ltr">2014</td>
+                    <td dir="ltr">Junho</td>
+                    <td class="s5 number" dir="ltr">147,5</td>
+                    <td class="s5 number" dir="ltr">7,76</td>
+                    <td dir="ltr">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">52</td>
+                    <td dir="ltr">2014</td>
+                    <td dir="ltr">Junho</td>
+                    <td class="s5 number" dir="ltr">152,6</td>
+                    <td class="s5 number" dir="ltr">9,42</td>
+                    <td dir="ltr">6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">53</td>
+                    <td dir="ltr">2014</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s5 number" dir="ltr">147,4</td>
+                    <td class="s5 number" dir="ltr">8,16</td>
+                    <td dir="ltr">8</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">54</td>
+                    <td dir="ltr">2015</td>
+                    <td dir="ltr">Setembro</td>
+                    <td class="s5 number" dir="ltr">70,4</td>
+                    <td class="s5 number" dir="ltr">7,23</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">55</td>
+                    <td dir="ltr">2015</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">44</td>
+                    <td class="s5 number" dir="ltr">7,24</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">56</td>
+                    <td dir="ltr">2015</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">41</td>
+                    <td class="s5 number" dir="ltr">8,75</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">57</td>
+                    <td dir="ltr">2015</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">109</td>
+                    <td class="s5 number" dir="ltr">10,71</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">58</td>
+                    <td dir="ltr">2016</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">131</td>
+                    <td class="s5 number" dir="ltr">6,68</td>
+                    <td dir="ltr">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">59</td>
+                    <td dir="ltr">2017</td>
+                    <td dir="ltr">Junho</td>
+                    <td class="s5 number" dir="ltr">328,8</td>
+                    <td class="s5 number" dir="ltr">10,89</td>
+                    <td dir="ltr">9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">60</td>
+                    <td dir="ltr">2018</td>
+                    <td dir="ltr">Maio</td>
+                    <td class="s5 number" dir="ltr">114,6</td>
+                    <td class="s5 number" dir="ltr">7,55</td>
+                    <td dir="ltr">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">61</td>
+                    <td dir="ltr">2019</td>
+                    <td dir="ltr">Dezembro</td>
+                    <td class="s5 number" dir="ltr">85,6</td>
+                    <td class="s5 number" dir="ltr">6,89</td>
+                    <td dir="ltr">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">62</td>
+                    <td dir="ltr">2020</td>
+                    <td dir="ltr">Setembro</td>
+                    <td class="s5 number" dir="ltr">50,2</td>
+                    <td class="s5 number" dir="ltr">6,46</td>
+                    <td dir="ltr">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">63</td>
+                    <td dir="ltr">2022</td>
+                    <td dir="ltr">Maio</td>
+                    <td dir="ltr">165</td>
+                    <td class="s5 number" dir="ltr">9,34</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">64</td>
+                    <td dir="ltr">2022</td>
+                    <td dir="ltr">Junho</td>
+                    <td class="s5 number" dir="ltr">84,2</td>
+                    <td class="s5 number" dir="ltr">6,72</td>
+                    <td dir="ltr">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">65</td>
+                    <td dir="ltr">2022</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s5 number" dir="ltr">76,8</td>
+                    <td class="s5 number" dir="ltr">7,47</td>
+                    <td dir="ltr">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">66</td>
+                    <td dir="ltr">2022</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s5 number" dir="ltr">27,3</td>
+                    <td class="s5 number" dir="ltr">6,42</td>
+                    <td dir="ltr">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">67</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Julho</td>
+                    <td class="s5 number" dir="ltr">92,2</td>
+                    <td class="s5 number" dir="ltr">7,30</td>
+                    <td dir="ltr">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">68</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Outubro</td>
+                    <td class="s5 number" dir="ltr">393,2</td>
+                    <td class="s5 number" dir="ltr">11,86</td>
+                    <td dir="ltr">9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">69</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Outubro</td>
+                    <td dir="ltr">101</td>
+                    <td class="s5 number" dir="ltr">7,78</td>
+                    <td dir="ltr">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td class="s12" dir="ltr">70</td>
+                    <td class="s13" dir="ltr">2023</td>
+                    <td class="s13" dir="ltr">Novembro</td>
+                    <td class="s1 number3" dir="ltr">65,2</td>
+                    <td class="s1 number3" dir="ltr">8,20</td>
+                    <td class="s13" dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">71</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Novembro</td>
+                    <td dir="ltr">185</td>
+                    <td class="s6 number" dir="ltr">13,04</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">72</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Novembro</td>
+                    <td class="s6 number" dir="ltr">22,4</td>
+                    <td class="s6 number" dir="ltr">6,77</td>
+                    <td dir="ltr">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td dir="ltr">73</td>
+                    <td dir="ltr">2023</td>
+                    <td dir="ltr">Novembro</td>
+                    <td class="s6 number" dir="ltr">83,2</td>
+                    <td class="s6 number" dir="ltr">8,33</td>
+                    <td dir="ltr">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td class="s7" dir="ltr" colspan="6" rowspan="2">Informações - Defesa Civil de Rio do Sul </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="height: 20px">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="centralized">
+        <p>Emergência</p>
+        <p>Ligue 199</p>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
